@@ -43,4 +43,11 @@ print (list2[1:-1])   ## ['b', 'c']
 list[0:2] = 'z'    ## replace ['a', 'b'] with ['z']
 print (list2)
 
-    
+
+# Manipulation
+
+numList1 = [1, 2 , 3, 4]
+numList2 = [10, 12, 13, 14]    
+
+
+print(numList1 + numList2)  # concate two list

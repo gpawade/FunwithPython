@@ -12,6 +12,8 @@ groupsMatch = re.match(r"(\d{3})-\d{3}-\d{3}",phone)
 
 print(groupsMatch.group(0))
 print(groupsMatch.group(1))
+ 
+
 
 # Search
 str = 'purple alice-b@google.com monkey dishwasher'
